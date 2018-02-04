@@ -3,3 +3,5 @@
 
 由于.net core支持windows、linux、mac，方便后续进行代码迁移等操作。
 
+项目工程用VS2017编译
+
