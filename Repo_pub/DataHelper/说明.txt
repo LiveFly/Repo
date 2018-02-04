@@ -1,0 +1,21 @@
+﻿============================说明==============================
+类库：IDataFacotry 定义操作接口
+	  DataHelper   是对接口IDataFacotry实现 
+	  MysqlFactory 是对接口IDataFacotry实现 
+	  MssqlFactory 是对接口IDataFacotry实现 
+	  
+平台及版本
+	框架 .net stand 2.0
+
+Nuget包：
+	PM>  Install-Package System.Data.Common 4.3.0
+	PM>  Install-Package System.Data.SqlClient 4.4.2
+	PM>  Install-Package MySql.Data -Version 6.10.5
+
+类及对象
+	
+
+运行环境
+	windows7及以上、Linux、Mac
+	.net core 2.0及以上
+=============================================================

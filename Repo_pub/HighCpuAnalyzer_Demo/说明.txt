@@ -1,0 +1,16 @@
+﻿============================说明==============================
+  HighCpuAnalyzer_Demo是一个CPU内核占用100%测试程序，用于协助HighCpuAnalyzer_Debugger分析工具，
+  HighCpuAnalyzer_Demo开启2个线程占用2个达100%，在4核CPU中会出现2个内核占用率达100%，
+  
+  测试效果图：HighCpuAnalyzer_Debugger/测试效果图.jpg
+
+平台及版本
+	框架 .net core 2.0
+
+类及对象
+	Thread
+
+运行环境
+	windows7及以上、Linux、Mac
+	.Net core 2.0及以上
+=============================================================

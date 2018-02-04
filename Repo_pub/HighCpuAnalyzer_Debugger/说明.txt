@@ -1,0 +1,20 @@
+﻿============================说明==============================
+  HighCpuAnalyzer_Debugger是一个CPU占用率高分析工具，.NET对进程的管理有一些API，
+可以获取一个进程的线程数，每个线程的启动时间，用户态时间，线程状态，优先级等信息。
+
+Microsoft.Samples.Debugging类库不支持.net core，所以该项目还是用.net framework。
+  
+  测试效果图：测试效果图.jpg
+
+平台及版本
+	框架 .net Framework 4.0
+
+类及对象
+	Microsoft.Samples.Debugging.CorDebug;
+	Microsoft.Samples.Debugging.MdbgEngine;
+	PerformanceCounterCategory
+
+运行环境
+	windows7及以上、Linux、Mac
+	.Net Framework 4.0及以上
+=============================================================

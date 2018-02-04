@@ -1,0 +1,19 @@
+﻿============================说明==============================
+ProgramA与ProgramB 是对库FileDriverLib调用；
+
+ProgramA与ProgramB 都包含Main函数，分开独立运行；
+
+ProgramA调用MemoryTasksDriver类中Writer方法，创建内存与文件的关联映射testmap；
+
+ProgramB调用MemoryTasksDriver类中Read方法，从testmap中获得数据内容；
+
+平台及版本
+	框架 .net stand 2.0
+
+类及对象
+	MemoryTasksDriver
+
+运行环境
+	windows7及以上、Linux、Mac
+	.net core 2.0及以上
+=============================================================

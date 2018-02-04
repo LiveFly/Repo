@@ -1,0 +1,20 @@
+﻿============================说明==============================
+CPUCore是对多核CPU亲缘性测试，利用Windows API将线程操作分配给
+指定内核进行处理，通过任务管理器或HighCpuAnalyzer_Debugger工具
+进行查看与分析。
+	  
+平台及版本
+	框架 .net core 2.0
+
+Nuget包：
+	PM>  Install-Package System.Data.Common 4.3.0
+	PM>  Install-Package System.Data.SqlClient 4.4.2
+	PM>  Install-Package MySql.Data -Version 6.10.5
+
+类及对象
+	
+
+运行环境
+	windows7及以上、Linux、Mac
+	.net core 2.0及以上
+=============================================================

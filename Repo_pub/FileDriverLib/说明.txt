@@ -1,0 +1,17 @@
+﻿============================说明==============================
+原理：
+	内存映射关联文件，支持持久化操作，
+	利用共享内存，进行跨进程数据共享
+
+平台及版本
+	框架 .net stand 2.0
+
+类及对象
+	MemoryMappedFile,MemoryMappedViewStream,MemoryMappedViewAccessor
+	BinaryReader,BinaryWriter
+	Mutex
+
+运行环境
+	windows7及以上、Linux、Mac
+	.net core 2.0及以上
+=============================================================
